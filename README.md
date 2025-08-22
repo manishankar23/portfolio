@@ -1,52 +1,104 @@
 # Mani Shankar S - Professional Portfolio
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/your-badge-id/deploy-status)](https://app.netlify.com/sites/your-site/deploys)
-[![TypeScript](https://img.shields.io/badge/TypeScript-4.9.5-blue)](https://www.typescriptlang.org/)
-[![React](https://img.shields.io/badge/React-18.2.0-blue)](https://reactjs.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.3.0-38B2AC)](https://tailwindcss.com/)
-[![Vite](https://img.shields.io/badge/Vite-4.4.0-646CFF)](https://vitejs.dev/)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-success)](https://manishankar23.github.io/portfolio/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-Latest-blue)](https://www.typescriptlang.org/)
+[![React](https://img.shields.io/badge/React-18.x-blue)](https://reactjs.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-Latest-38B2AC)](https://tailwindcss.com/)
+[![Vite](https://img.shields.io/badge/Vite-Latest-646CFF)](https://vitejs.dev/)
 
-Welcome to my professional portfolio website! This modern, responsive portfolio showcases my work as a Senior Frontend Developer, built with cutting-edge technologies and best practices in web development.
+Welcome to my professional portfolio website! This modern, responsive portfolio showcases my work as a Full Stack Developer, built with cutting-edge technologies and best practices in web development. The site is designed to provide a seamless experience across all devices while maintaining high performance and accessibility standards.
 
-🔗 [View Live Demo](https://manishankar23.github.io/Portfolio)
+� [View Portfolio](https://manishankar23.github.io/portfolio/)
 
 ![Portfolio Preview](./public/profile.jpg)
+
+## 🛠️ Tech Stack
+
+- **Frontend Framework:** React with TypeScript
+- **Styling:** Tailwind CSS
+- **Build Tool:** Vite
+- **Email Service:** EmailJS
+- **Icons:** Lucide React
+- **Deployment:** GitHub Pages
 
 ## ✨ Features
 
 - **📱 Responsive Design**
   - Mobile-first approach
   - Fluid layouts and flexible grids
-  - Optimized for all device sizes (320px to 4K)
+  - Optimized for all device sizes
   - Touch-friendly navigation
 
 - **🎨 Modern UI/UX**
-  - Dark/Light mode with system preference detection
+  - Dark/Light mode with system preference
   - Smooth scroll behaviors
-  - Elegant animations and transitions
-  - Micro-interactions for better user engagement
-  - Custom cursor effects
+  - Elegant animations
+  - Custom theme context
 
 - **⚡ Performance Optimized**
-  - Lazy loading of images and components
-  - Code splitting for faster initial load
+  - Lazy loading of components
+  - Code splitting
   - Optimized asset delivery
-  - Efficient state management
-  - 90+ Lighthouse score
-
-- **♿ Accessibility**
-  - WCAG 2.1 AA compliant
-  - Proper heading hierarchy
-  - ARIA labels and roles
-  - Keyboard navigation support
-  - Screen reader friendly
+  - Custom hooks for scroll and active section
 
 - **📨 Interactive Features**
-  - Real-time form validation
-  - EmailJS powered contact form
+  - Contact form with EmailJS
   - Social media integration
   - Downloadable resume
-  - Project showcase with live demos
+  - Project showcase
+  - Skills and experience timeline
+
+## 🚀 Getting Started
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/manishankar23/portfolio.git
+   cd portfolio
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production**
+   ```bash
+   npm run build
+   ```
+
+5. **Deploy to GitHub Pages**
+   ```bash
+   npm run deploy
+   ```
+
+## � Project Structure
+
+```
+portfolio/
+├── src/
+│   ├── components/     # React components
+│   ├── contexts/       # Theme context
+│   ├── hooks/         # Custom hooks
+│   ├── utils/         # Utility functions
+│   ├── App.tsx        # Main app component
+│   └── main.tsx       # Entry point
+├── public/            # Static assets
+└── ...config files
+```
+
+## 🔗 Links
+
+- [Live Portfolio](https://manishankar23.github.io/portfolio/)
+- [GitHub Repository](https://github.com/manishankar23/portfolio)
+
+## 📝 License
+
+This project is open source and available under the MIT License.
 
 - **🔍 SEO Optimized**
   - Semantic HTML structure
